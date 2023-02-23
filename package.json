@@ -1,0 +1,10 @@
+{
+  "name": "learn_node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "thanhd",
+  "license": "MIT",
+  "dependencies": {
+    "jsonwebtoken": "^9.0.0"
+  }
+}
