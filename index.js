@@ -13,5 +13,8 @@ const token = JWT.sign({ userId: 1234, roles: ["user"] }, privateKey, {
 
 console.log(`Signed token::`, token);
 JWT.verify(token, publicKey, (error, decode) => {
+  if(error){
+    console.error(`error::`,error)
+  }
   console.log(`decode::`, decode);
 });
